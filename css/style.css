@@ -1,0 +1,424 @@
+:root {
+    --pr-color : #B1A697;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFCFD;
+}
+
+/* Navbar style */
+.navbar {
+    z-index: 3;
+}
+
+/* Navbar Color */
+.nav-color {
+    background-color: rgba(0, 0, 0, 0.70);;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s;
+}
+
+* {
+    z-index: 2;
+}
+
+.bghero {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: var(--pr-color);
+    
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    color: var(--pr-color);
+    font-size: 14px;
+    border: none;
+    font-weight: 400;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url(../Assets/img/bghero.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.hero-tagline p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Profile Home */
+#Profil {
+    padding: 50px 0;
+    background: #E2E2D4;
+}
+
+.video-container {
+    width: 780px;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+
+.card {
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #B1A697;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.card p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.card ul {
+    color: #FFFFFF;
+}
+
+/* News */
+#news {
+    padding: 50px 0;
+    background: #FFFFF7;
+}
+
+.buttons {
+    width: 150px;
+    height: 45px;
+    background-color: #fff;
+    color: var(--pr-color);
+    font-size: 14px;
+    border: none;
+    font-weight: 400;
+}
+
+.panel {
+    width: 100%;
+    height: 416px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel img {
+    border-radius: 5px;
+}
+
+.panel-body p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.panel-body h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel-body a {
+    font-size: 10px;
+    color: #2385C4;
+    text-decoration: underline;
+}
+
+/* Galeri */
+#galeri {
+    padding: 50px 0;
+    background: #E2E2D4;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #B1A697;
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #B1A697;
+    padding: 0;
+}
+
+/* Kontak */
+#contact {
+    background-image: url(../Assets/img/bg-kontak.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    color: var(--pr-color);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+}
+
+.kontak h6 {
+    color: var(--pr-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px; /* 260.87% */
+}
+
+.kontak a {
+    color: #F6F6F6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px; /* 175% */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.card-contact {
+    width: 100%;
+    height: 449px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    padding: 40px 45px;
+}
+
+.form-control {
+    height: 81px !important;
+    background: rgba(146, 146, 146, 0.49);
+}
+
+.form-floating label {
+    color: rgba(146, 146, 146, 0.49);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 175% */
+}
+
+.card-contact h2 {
+    color: var(--pr-color);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px; /* 166.667% */
+}
+
+.button-kontak {
+    width: 100%;
+    height: 61px;
+    background: #2385C4;
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px; /* 200% */
+    border: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 202px;
+    background: #464747;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #BBB;
+}
+
+footer a {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Berita Open */
+#Beritabuka {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #D7D8D6, #80B6D9);
+}
+
+.gambar-berita {
+    margin-bottom: 45px;
+}
+
+.tulisan-berita h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 128.571% */
+}
+
+.tulisan-berita p {
+    color: #8F7E67;
+}
+
+/* Company New Slide */
+#halaman {
+    padding: 0 0 45px 0;
+    background: #E2E2D4;
+}
+
+.isi-sejarah {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.33);
+    padding: 30px;
+}
+
+.isi-sejarah p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.visi-company {
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.misi-company {
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.visi-company h3, .misi-company h3 {
+    color: #A3A398;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.visi-company p {
+    color: #A3A398;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.misi-company ul {
+    color: #A3A398;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+    padding: 10px 9px 3px 15px;
+}
+
+#struc-organisasi {
+    background: #E2E2D4;
+}
+
+.isi-struktur {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.33);
+    padding: 30px;
+}
+
+/* Sertifikasi */
+#sertifikasi {
+    padding: 50px 0;
+    background: #E2E2D4;
+}
+
+/* News */
+#berita {
+    padding: 0;
+    background: #E2E2D4;
+}
+
+.gambar-berita a {
+    text-decoration: none;
+}
+
+.isi-berita h5 {
+    color: var(--pr-color);
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 45px; /* 128.571% */
+    text-align: justify;
+}
+
+.isi-berita p {
+    color: var(--pr-color);
+    font-weight: 700;
+}
+
+/* Galeri */
+#gal {
+    padding: 0;
+    background: #E2E2D4;
+}
+
+#galfoto {
+    padding: 0 0 60px 0;
+    background: #E2E2D4;
+}
